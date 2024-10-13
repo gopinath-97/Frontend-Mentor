@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+.container {
+  width: 34rem;
+  background-color: hsl(0, 0%, 20%);
+  padding: 3rem 0;
+  border-radius: 2rem;
+}
+.user {
+  display: grid;
+  place-items: center;
+}
+.user-img {
+  width: 12rem;
+  border-radius: 50%;
+}
+.user h1 {
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 100%);
+  margin: 2rem 0 0.5rem;
+  font-weight: 700;
+}
+.user h4 {
+  font-size: 1.5rem;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1.5rem;
+}
+.user p {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+.social-links {
+  display: grid;
+  place-items: center;
+}
+.social-links li {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background-color: hsla(0, 0%, 28%, 0.808);
+  padding: 1.5rem;
+  width: 85%;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.social-links a {
+  color: hsl(0, 0%, 100%);
+}
+.social-links li:hover a,
+.social-links li:focus a {
+  color: hsl(0, 0%, 8%);
+}
+
+.social-links li:hover,
+.social-links li:focus {
+  background-color: hsl(75, 94%, 57%);
+}
